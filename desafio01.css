@@ -1,0 +1,106 @@
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Handjet', cursive;
+}
+
+.header{
+    background: linear-gradient(0deg,#042940,#005C53);
+    color: #9FC131;
+    padding: 1rem;
+    
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+}
+.header p{
+    display: flex;
+    justify-content: center;
+    text-indent: 50px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 1rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+.header li:hover{
+    cursor: pointer;
+    color: #DBF227;
+}
+.border{
+   border: 12rem solid #005C53;
+   border-top: none;
+   -webkit-box-shadow: inset 3px -3px 6px 6px rgba(0,0,0,0.13);
+   -moz-box-shadow: inset 3px -3px 6px 6px rgba(0,0,0,0.13);
+   box-shadow: inset 3px -3px 6px 6px rgba(0,0,0,0.13);
+}
+.main{
+   padding: 3rem;
+}
+
+.main h2{
+    color: #042940;
+    font-weight: bold;
+    
+}
+.main h3{
+    background: linear-gradient(90deg,#9FC131,#DBF227);
+    color: #042940;
+    font-weight: bolder;
+    text-indent: 10px;
+    border-radius: 12px;
+}
+.main p{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    text-indent: 50px;
+    
+}
+.main picture{
+    display: flex;
+    justify-content: center;
+}
+.main iframe{
+    display: flex;
+    align-self: center;
+    border: 2rem solid #005C53;
+}
+.footer div{
+    margin: 2rem;
+    background-color: #005C53;
+    color: #9FC131;
+    border-radius: 12px;
+    text-indent: 10px;
+
+}
+.footer h2{
+    background-color: #042940;
+    color: #9FC131;
+    border-radius: 12px 12px 0px 0px;
+}
+.footer ul{
+    list-style-type: symbols();
+}
+.footer p{
+    text-indent: 50px;
+}
+
+.bottom-footer{
+    background-color: #042940;
+    color: #9FC131;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+.footer a{
+    color: #9FC131;
+}
+
+.footer a:hover{
+    color: #DBF227;
+}
